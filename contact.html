@@ -34,30 +34,30 @@
         <p>I'm always open to hearing about new projects, creative challenges, and interesting collaborations. Let me know what you're working on and how I can help.</p>
 
         <div class="contact-links">
-          <a href="mailto:hello@timmy4d.dev" class="contact-link">
+          <a href="mailto:timmyjparsons@gmail.com" class="contact-link">
             <span class="link-icon">✉</span>
-            <span>hello@timmy4d.dev</span>
+            <span>timmyjparsons@gmail.com</span>
           </a>
-          <a href="https://github.com/timmy4d" target="_blank" rel="noopener" class="contact-link">
-            <span class="link-icon">⌥</span>
-            <span>github.com/timmy4d</span>
-          </a>
-          <a href="https://twitter.com/timmy4d" target="_blank" rel="noopener" class="contact-link">
-            <span class="link-icon">𝕏</span>
-            <span>@timmy4d</span>
+          <a href="tel:4072152253" class="contact-link">
+            <span class="link-icon">#</span>
+            <span>(407) 415-2253</span>
           </a>
           <a href="https://linkedin.com/in/timmy4d" target="_blank" rel="noopener" class="contact-link">
             <span class="link-icon">in</span>
-            <span>linkedin.com/in/timmy4d</span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://timmy4d.com" target="_blank" rel="noopener" class="contact-link">
+            <span class="link-icon">🌐</span>
+            <span>timmy4d.com</span>
           </a>
         </div>
 
         <div style="margin-top:2.5rem;padding:1.5rem;border:1px solid var(--border);background:var(--surface);">
           <div class="section-label mono" style="margin-bottom:0.75rem;">// Availability</div>
           <p style="font-family:var(--font-mono);font-size:0.85rem;color:var(--muted);line-height:1.7;">
-            Currently available for freelance projects and select full-time opportunities.
+            Currently seeking a technology internship to leverage skills in development, systems management, and business strategy.
             <br/><br/>
-            <span style="color:var(--accent);">● Open to work</span>
+            <span style="color:var(--accent);">● Open to opportunities — Florida & Remote</span>
           </p>
         </div>
       </div>
@@ -79,7 +79,7 @@
         </div>
         <div class="form-group">
           <label for="subject">Subject</label>
-          <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Collaboration / Just saying hi" />
+          <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Internship / Just saying hi" />
         </div>
         <div class="form-group">
           <label for="message">Message</label>
@@ -106,7 +106,6 @@
       e.preventDefault();
       const form = document.getElementById('contact-form');
       const success = document.getElementById('form-success');
-      // Show success (in production, hook up to a form API like Formspree)
       success.style.display = 'block';
       form.querySelectorAll('input, textarea').forEach(el => el.value = '');
       setTimeout(() => { success.style.display = 'none'; }, 5000);
